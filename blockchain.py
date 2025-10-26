@@ -59,8 +59,8 @@ class Blockchain:
 
     def send_email(self, to_email, challan):
         """Send an email notification for a new challan."""
-        sender = "esportspubggaming1234@gmail.com"  
-        password = "rfsnvbfbakvspazx"
+        sender = ""  # add the sender email here 
+        password = "" # add the sender email's app password here
 
         subject = "🚨 New E-Challan Notification"
         body = (
