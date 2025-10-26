@@ -16,7 +16,4 @@ them immutably in a Python blockchain structure.
 2. Run the Streamlit app: `streamlit run streamlit_app.py --server.port 8501 --server.enableCORS false`
 3. Open the forwarded port (8501). In Codespaces, use the Ports view and open in browser.
 
-## Notes
-- This is a simulation and keeps all data in memory. For persistence, connect to SQLite or a DB.
-- For a permissioned blockchain demo (Hyperledger Fabric), replace the blockchain layer accordingly.
-- The proof-of-work is intentionally low-cost for demo speed.
+
