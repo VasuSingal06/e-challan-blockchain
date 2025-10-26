@@ -76,7 +76,7 @@ if len(challans) == 0:
 else:
     df = pd.DataFrame(challans)
     df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
-    df_display = df[['timestamp','fastag_id','vehicle_number','violation_type','fine_amount']].sort_values('timestamp', ascending=False)
+    df_display = df[['timestamp','fastag_id','email','vehicle_number','violation_type','fine_amount']].sort_values('timestamp', ascending=False)
     placeholder.dataframe(df_display.reset_index(drop=True))
 
 st.markdown("---")
